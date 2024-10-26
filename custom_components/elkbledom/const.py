@@ -5,51 +5,124 @@ CONF_RESET = "reset"
 CONF_DELAY = "delay"
 
 class EFFECTS (Enum):
-    jump_red_green_blue = 0x87
-    jump_red_green_blue_yellow_cyan_magenta_white = 0x88
-    crossfade_red = 0x8b
-    crossfade_green = 0x8c
-    crossfade_blue = 0x8d
-    crossfade_yellow = 0x8e
-    crossfade_cyan = 0x8f
-    crossfade_magenta = 0x90
-    crossfade_white = 0x91
-    crossfade_red_green = 0x92
-    crossfade_red_blue = 0x93
-    crossfade_green_blue = 0x94
-    crossfade_red_green_blue = 0x89
-    crossfade_red_green_blue_yellow_cyan_magenta_white = 0x8a
-    blink_red = 0x96
-    blink_green = 0x97
-    blink_blue = 0x98
-    blink_yellow = 0x99
-    blink_cyan = 0x9a
-    blink_magenta = 0x9b
-    blink_white = 0x9c
-    blink_red_green_blue_yellow_cyan_magenta_white = 0x95
+    Effect1 = 0x01
+Effect2 = 0x02
+Effect3 = 0x03
+Effect4 = 0x04
+Effect5 = 0x05
+Effect6 = 0x06
+Effect7 = 0x07
+Effect8 = 0x08
+Effect9 = 0x09
+Effect10 = 0x0A
+Effect11 = 0x0B
+Effect12 = 0x0C
+Effect13 = 0x0D
+Effect14 = 0x0E
+Effect15 = 0x0F
+Effect16 = 0x10
+Effect17 = 0x11
+Effect18 = 0x12
+Effect19 = 0x13
+Effect20 = 0x14
+Effect21 = 0x15
+Effect22 = 0x16
+Effect23 = 0x17
+Effect24 = 0x18
+Effect25 = 0x19
+Effect26 = 0x1A
+Effect27 = 0x1B
+Effect28 = 0x1C
+Effect29 = 0x1D
+Effect30 = 0x1E
+Effect31 = 0x1F
+Effect32 = 0x20
+Effect33 = 0x21
+Effect34 = 0x22
+Effect35 = 0x23
+Effect36 = 0x24
+Effect37 = 0x25
+Effect38 = 0x26
+Effect39 = 0x27
+Effect40 = 0x28
+Effect41 = 0x29
+Effect42 = 0x2A
+Effect43 = 0x2B
+Effect44 = 0x2C
+Effect45 = 0x2D
+Effect46 = 0x2E
+Effect47 = 0x2F
+Effect48 = 0x30
+Effect49 = 0x31
+Effect50 = 0x32
+Effect51 = 0x33
+Effect52 = 0x34
+Effect53 = 0x35
+Effect54 = 0x36
+Effect55 = 0x37
+Effect56 = 0x38
+Effect57 = 0x39
+Effect58 = 0x3A
+Effect59 = 0x3B
+Effect60 = 0x3C
+Effect61 = 0x3D
+Effect62 = 0x3E
+Effect63 = 0x3F
+Effect64 = 0x40
+Effect65 = 0x41
+Effect66 = 0x42
+Effect67 = 0x43
+Effect68 = 0x44
+Effect69 = 0x45
+Effect70 = 0x46
+Effect71 = 0x47
+Effect72 = 0x48
+Effect73 = 0x49
+Effect74 = 0x4A
+Effect75 = 0x4B
+Effect76 = 0x4C
+Effect77 = 0x4D
+Effect78 = 0x4E
+Effect79 = 0x4F
+Effect80 = 0x50
+Effect81 = 0x51
+Effect82 = 0x52
+Effect83 = 0x53
+Effect84 = 0x54
+Effect85 = 0x55
+Effect86 = 0x56
+Effect87 = 0x57
+Effect88 = 0x58
+Effect89 = 0x59
+Effect90 = 0x5A
+Effect91 = 0x5B
+Effect92 = 0x5C
+Effect93 = 0x5D
+Effect94 = 0x5E
+Effect95 = 0x5F
+Effect96 = 0x60
+Effect97 = 0x61
+Effect98 = 0x62
+Effect99 = 0x63
+Effect100 = 0x64
+Effect101 = 0x65
+Effect102 = 0x66
+Effect103 = 0x67
+Effect104 = 0x68
+Effect105 = 0x69
+Effect106 = 0x6A
+Effect107 = 0x6B
+Effect108 = 0x6C
+Effect109 = 0x6D
+Effect110 = 0x6E
+Effect111 = 0x6F
+Effect112 = 0x70
+Effect113 = 0x71
+Effect114 = 0x72
+Effect115 = 0x73
+Effect116 = 0xFF
 
-EFFECTS_list = ['jump_red_green_blue',
-    'jump_red_green_blue_yellow_cyan_magenta_white',
-    'crossfade_red',
-    'crossfade_green',
-    'crossfade_blue',
-    'crossfade_yellow',
-    'crossfade_cyan',
-    'crossfade_magenta',
-    'crossfade_white',
-    'crossfade_red_green',
-    'crossfade_red_blue',
-    'crossfade_green_blue',
-    'crossfade_red_green_blue',
-    'crossfade_red_green_blue_yellow_cyan_magenta_white',
-    'blink_red',
-    'blink_green',
-    'blink_blue',
-    'blink_yellow',
-    'blink_cyan',
-    'blink_magenta',
-    'blink_white',
-    'blink_red_green_blue_yellow_cyan_magenta_white'
+EFFECTS_list = ['Effect 1','Effect 2','Effect 3','Effect 4','Effect 5','Effect 6','Effect 7','Effect 8','Effect 9','Effect 10','Effect 11','Effect 12','Effect 13','Effect 14','Effect 15','Effect 16','Effect 17','Effect 18','Effect 19','Effect 20','Effect 21','Effect 22','Effect 23','Effect 24','Effect 25','Effect 26','Effect 27','Effect 28','Effect 29','Effect 30','Effect 31','Effect 32','Effect 33','Effect 34','Effect 35','Effect 36','Effect 37','Effect 38','Effect 39','Effect 40','Effect 41','Effect 42','Effect 43','Effect 44','Effect 45','Effect 46','Effect 47','Effect 48','Effect 49','Effect 50','Effect 51','Effect 52','Effect 53','Effect 54','Effect 55','Effect 56','Effect 57','Effect 58','Effect 59','Effect 60','Effect 61','Effect 62','Effect 63','Effect 64','Effect 65','Effect 66','Effect 67','Effect 68','Effect 69','Effect 70','Effect 71','Effect 72','Effect 73','Effect 74','Effect 75','Effect 76','Effect 77','Effect 78','Effect 79','Effect 80','Effect 81','Effect 82','Effect 83','Effect 84','Effect 85','Effect 86','Effect 87','Effect 88','Effect 89','Effect 90','Effect 91','Effect 92','Effect 93','Effect 94','Effect 95','Effect 96','Effect 97','Effect 98','Effect 99','Effect 100','Effect 101','Effect 102','Effect 103','Effect 104','Effect 105','Effect 106','Effect 107','Effect 108','Effect 109','Effect 110','Effect 111','Effect 112','Effect 113','Effect 114','Effect 115','Effect 116'
     ]
 
 class WEEK_DAYS (Enum):
