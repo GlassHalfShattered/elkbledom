@@ -5,8 +5,8 @@ CONF_RESET = "reset"
 CONF_DELAY = "delay"
 
 class EFFECTS (Enum):
-    jump_red_green_blue = 0x87
-    Effect2 = 0x88
+    jump_red_green_blue = 0x01
+    jump_red_green_blue_yellow_cyan_magenta_white = 0x88
     Effect3 = 0x8b
     Effect4 = 0x04
     Effect5 = 0x05
