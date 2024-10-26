@@ -5,8 +5,8 @@ CONF_RESET = "reset"
 CONF_DELAY = "delay"
 
 class EFFECTS (Enum):
-    rainbow_trail = 0x01
-    rainbow_trail_reverse = 0x02
+    effect1 = 0x01
+    effect2 = 0x02
     effect3 = 0x8b
     effect4 = 0x04
     effect5 = 0x05
@@ -122,7 +122,7 @@ class EFFECTS (Enum):
     Effect115 = 0x73
     Effect116 = 0xFF
 
-EFFECTS_list = ['rainbow_trail','rainbow_trail_reverse','effect3','effect4','effect5','effect6','Effect7','Effect8','Effect9','Effect10','Effect 11','Effect 12','Effect 13','Effect 14','Effect 15','Effect 16','Effect 17','Effect 18','Effect 19','Effect 20','Effect 21','Effect 22','Effect 23','Effect 24','Effect 25','Effect 26','Effect 27','Effect 28','Effect 29','Effect 30','Effect 31','Effect 32','Effect 33','Effect 34','Effect 35','Effect 36','Effect 37','Effect 38','Effect 39','Effect 40','Effect 41','Effect 42','Effect 43','Effect 44','Effect 45','Effect 46','Effect 47','Effect 48','Effect 49','Effect 50','Effect 51','Effect 52','Effect 53','Effect 54','Effect 55','Effect 56','Effect 57','Effect 58','Effect 59','Effect 60','Effect 61','Effect 62','Effect 63','Effect 64','Effect 65','Effect 66','Effect 67','Effect 68','Effect 69','Effect 70','Effect 71','Effect 72','Effect 73','Effect 74','Effect 75','Effect 76','Effect 77','Effect 78','Effect 79','Effect 80','Effect 81','Effect 82','Effect 83','Effect 84','Effect 85','Effect 86','Effect 87','Effect 88','Effect 89','Effect 90','Effect 91','Effect 92','Effect 93','Effect 94','Effect 95','Effect 96','Effect 97','Effect 98','Effect 99','Effect 100','Effect 101','Effect 102','Effect 103','Effect 104','Effect 105','Effect 106','Effect 107','Effect 108','Effect 109','Effect 110','Effect 111','Effect 112','Effect 113','Effect 114','Effect 115','Effect 116']
+EFFECTS_list = ['effect1','effect2','effect3','effect4','effect5','effect6','effect7','effect8','effect9','effect10','effect11','effect12','effect13','effect14','effect15','effect16','effect17','effect18','effect19','effect20','effect21','effect22','effect23','effect24','effect25','effect26','effect27','effect28','effect29','effect30','effect31','effect32','effect33','effect34','effect35','effect36','effect37','effect38','effect39','effect40','effect41','effect42','effect43','effect44','effect45','effect46','effect47','effect48','effect49','effect50','effect51','effect52','effect53','effect54','effect55','effect56','effect57','effect58','effect59','effect60','effect61','effect62','effect63','effect64','effect65','effect66','effect67','effect68','effect69','effect70','effect71','effect72','effect73','effect74','effect75','effect76','effect77','effect78','effect79','effect80','effect81','effect82','effect83','effect84','effect85','effect86','effect87','effect88','effect89','effect90','effect91','effect92','effect93','effect94','effect95','effect96','effect97','effect98','effect99','effect100','effect101','effect102','effect103','effect104','effect105','effect106','effect107','effect108','effect109','effect110','effect111','effect112','effect113','effect114','effect115','effect116']
 
 class WEEK_DAYS (Enum):
     monday = 0x01
